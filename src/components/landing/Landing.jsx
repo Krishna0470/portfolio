@@ -9,7 +9,7 @@ function Landing() {
   
 
     return (
-        <Router>
+        <Router basename="/vite-project">
             <>
                 <Routes>
                 <Route path="/" exact element={<Portfoliopage/>} />
