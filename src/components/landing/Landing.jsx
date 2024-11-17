@@ -4,7 +4,7 @@ import Portfoliopage from "./Portfoliopage";
 
 function Landing() {
   return (
-    <Router basename="/vite-project"> {/* Ensure this matches the base of the deployed app */}
+    <Router basename="/"> {/* Ensure this matches the base of the deployed app */}
       <Routes>
         <Route path="/" element={<Portfoliopage />} />
       </Routes>
