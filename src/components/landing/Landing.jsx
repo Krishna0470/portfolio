@@ -1,22 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Portfoliopage from "./Portfoliopage";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
-
-
 
 function Landing() {
-  
-
-    return (
-        <Router basename="/vite-project">
-            <>
-                <Routes>
-                <Route path="/" exact element={<Portfoliopage/>} />
-                </Routes>
-            </>
-        </Router>
-    )
+  return (
+    <Router basename="/vite-project"> {/* Ensure this matches the base of the deployed app */}
+      <Routes>
+        <Route path="/" element={<Portfoliopage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default Landing;
