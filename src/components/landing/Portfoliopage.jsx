@@ -37,7 +37,7 @@ function Portfoliopage({ displayData }) {
         <div className="d-flex flex-column">
           <div className="profile">
             <Link className="circle">
-              <img height={128} width={128} src="../../../public/landing/profile1.jpg" alt="Cloud Chen" />
+            <img height={128} width={128} src="../../../public/landing/profile1.jpg" alt="Cloud Chen" />
             </Link>
             <h1 className="text-light">
               <samp className='lugrasimo-regular' >K</samp>rishna s
